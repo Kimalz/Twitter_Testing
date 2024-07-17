@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testreport Test Suite For Acceptance Test Plan For Twitter</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Plan Execution Report</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Twitter Test Project<br/>Test Plan: Twitter Acceptance Test Plan<br/>Test Suite: Test Suite For Acceptance Test Plan For Twitter</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 03/03/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 10px;"><b><a href="#toc_1_1">1.1.Test Suite For Acceptance Test Plan For Twitter</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc23">TWTR-7: Changes Language Functionality (Negative Test Case)</a></p></div><h1 class="doclevel" >Test Project: Twitter Test Project</h1>
+<div class="txtlevel"><p>The project is to create a test plan for unit, system, integration,&nbsp;&nbsp;and acceptance testing in order to develop a responsive and engaging&nbsp;Twitter app and website.</p></div>
+ <br/><h1 class="doclevel" style="page-break-before: avoid;"  >Test Plan: Twitter Acceptance Test Plan</h1>
+<div class="txtlevel"><p>This is an acceptance test plan for Twitter that consists of 1 test case that changes language functionality (a negative test case).&nbsp;The test&nbsp;user could choose the language they want to change while not connected to the internet, but the Twitter web did not change the language that the user chose.</p></div>
+ <br/><p></p><a name='toc_1_1'></a>
+<h1 class='doclevel'>1.1.Test Suite : Test Suite For Acceptance Test Plan For Twitter</h1>
+<a name="toc_tc23"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="6">Test Case TWTR-7: Changes Language Functionality (Negative Test Case)&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="5">eggmoll</td></tr>
+<tr><td colspan="6"><span class="label">Summary:</span><br /><p>This test case aims to verify the functionality of changing the language setting on Twitter. It covers both successful and negative scenarios, particularly focusing on the inability to change the language when there is no internet connection.</p>
+</td></tr><tr><td colspan="6"><span class="label">Preconditions:</span><br /><table border="1" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<p>1) Verify&nbsp;User Is Able to Login To Twitter Website Url:</p>
+
+			<p><a href="https://twitter.com/?lang=en">https://twitter.com/?lang=en</a></p>
+
+			<p>2) Verify&nbsp;User Is Able to Click on Sign in Button.</p>
+
+			<p>3) Verify&nbsp;User Is Able To Enter Registered Email And Correct Password In Log In Page.</p>
+
+			<p>4) Verify&nbsp;User Is Able to Click Sign in Button.</p>
+
+			<p>5) Verify&nbsp;User Is Able to Go To The Homepage After Successfully Login.</p>
+
+			<p>6) Verify&nbsp;User Is Able To Click On More&nbsp;Button At The Homepage.</p>
+
+			<p>7) Verify&nbsp;User Is Able To Go To The More&nbsp;Page And Click On Settings Button.</p>
+
+			<p>8) Verify&nbsp;User Is Able To Go To The Settings Page And Click On Language Button.</p>
+
+			<p>9) Verify&nbsp;User Is Able To see The Desired Language And Click On The Language.</p>
+
+			<p>10) Verify&nbsp;User Is Not Able To Change The Language Due To Not Having Internet.&nbsp;</p>
+
+			<p>11) Verify&nbsp;User Is Able To See Pop Up No Internet At Twitter When The Connection Is Gone.</p>
+
+			<p>12) Verify&nbsp;user Is Able To&nbsp; Reconnect To The Internet.</p>
+
+			<p>13) Verify&nbsp;User Is Able To Go To The Homepage After The Internet Back On&nbsp;And Not Have The Language Change That Made Earlier Due To Not Having Internet.</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution notes:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>1) User Open Twitter Website Url: https://twitter.com/?lang=en</p>
+
+<p>2) User Then Click On Login Button.</p>
+
+<p>3) User Will Enter Their Registered Name</p>
+
+<p>4) User Will Enter the Registered Password.</p>
+
+<p>5) User Will Click on Sign In Button</p>
+
+<p>6) The System Will Display Home Page</p>
+
+<p>7) User Then Click On More Button At The Homepage.</p>
+
+<p>8) User Then Will Click On Settings At More&nbsp;Page</p>
+
+<p>9) User Then Will Go To The Settings Page.</p>
+
+<p>10) User Then Will Click Language Button At The Settings Page.</p>
+
+<p>11) User Then Will Click On Desired Language Button And Press Apply Button Without Internet.</p>
+
+<p>12) User Then Will Check On The Internet When User Receive No Internet Pop Up That Been Made From Twitter.</p>
+
+<p>13) User Then Will Reconnect The Internet At Their Device To Execute The Language Change.</p>
+
+<p>14) User Then Will Go To The Homepage After The Internet Is Back On And The Settings That The User Made Earlier Will Not Apply Due Not Having Internet</p>
+</td><td><table border="1" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<p>1) Validate User Is Able to Login To Twitter Website Url:</p>
+
+			<p><a href="https://twitter.com/?lang=en">https://twitter.com/?lang=en</a></p>
+
+			<p>(step 1)</p>
+
+			<p>2) Validate User Is Able to Click on Sign in Button.</p>
+
+			<p>(step 2)</p>
+
+			<p>3) In Sign in Page Validate User Is Able To Enter Registered Email And Correct Password.</p>
+
+			<p>(step 3 to 4)</p>
+
+			<p>4) Validate User Is Able to Click Sign in Button.</p>
+
+			<p>(step 5)</p>
+
+			<p>5) Validate User Is Able to Go To The Homepage After Successfully Login.</p>
+
+			<p>(step 6)</p>
+
+			<p>6) Validate User Is Able To Click On More&nbsp;Button At The Homepage.</p>
+
+			<p>(step 7)</p>
+
+			<p>7) Validate User Is Able To Go To The More&nbsp;Page And Click On Settings Button.</p>
+
+			<p>(step 8 and 9)</p>
+
+			<p>8) Validate User Is Able To Go To The Settings Page And Click On Language Button.</p>
+
+			<p>(step 10 and 11)</p>
+
+			<p>9) Validate User Is Able To see The Desired Language And Click On The Language.</p>
+
+			<p>(step 12)</p>
+
+			<p>10) Validate User Is Not Able To Change The Language Due To Not Having Internet.&nbsp;</p>
+
+			<p>(step 13)</p>
+
+			<p>11) Validate User Is Able To See Pop Up No Internet At Twitter When The Connection Is Gone.</p>
+
+			<p>(step 14)</p>
+
+			<p>12) Validate user Is Able To&nbsp; Reconnect To The Internet.</p>
+
+			<p>(step 15)</p>
+
+			<p>13) Validate User Is Able To Go To The Homepage After The Internet Back On&nbsp;And Not Have The Language Change That Made Earlier Due To Not Having Internet.</p>
+
+			<p>(step 16)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td>Caption: While switching languages, the Internet will be shut off.</td><td>Passed</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="5">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="5"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="5">Medium</td></tr>
+<tr><td colspan="6"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="5">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="5">&nbsp;None<br/></td></tr>
+<tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="5">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="5">Twitter Build For Acceptance Test Plan</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="5" >eggmoll</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="5" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="5" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="5" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+
+</body>
+</html>

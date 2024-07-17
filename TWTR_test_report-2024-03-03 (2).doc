@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testreport Test Suite For Intergration Test Plan For Twitter</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Plan Execution Report</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Twitter Test Project<br/>Test Plan: Twitter Integration Test Plan<br/>Test Suite: Test Suite For Intergration Test Plan For Twitter</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 03/03/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="doclevel" >Test Project: Twitter Test Project</h1>
+<div class="txtlevel"><p>The project is to create a test plan for unit, system, integration,&nbsp;&nbsp;and acceptance testing in order to develop a responsive and engaging&nbsp;Twitter app and website.</p></div>
+ <br/><h1 class="doclevel" style="page-break-before: avoid;"  >Test Plan: Twitter Integration Test Plan</h1>
+<div class="txtlevel"><p>This is an&nbsp;integration test plan for Twitter that consists of one test case, which is search functionality (a&nbsp;positive&nbsp;test case) to test whether the user could search their desired content or picture at the search function on Twitter.</p></div>
+ <br/><h1 class='doclevel'>Test Suite : Test Suite For Intergration Test Plan For Twitter</h1>
+<p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="5">Test Case TWTR-8:  Bookmark Functionality (Positive Test Case)&nbsp;<span style="font-size: 80%;">[Version : 1]</span></th></tr>
+<tr><td colspan="5"><span class="label">Summary:</span><br /><p>This test case outlines the steps to ensure the bookmark functionality on Twitter works as expected. It begins with verifying the login process, then confirms the visibility and functionality of the bookmark button both on the homepage and the &quot;More&quot; page. Finally, it confirms that the bookmarked content is successfully saved and displayed on the bookmark page for the user to access later.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td><td><span class="label">Execution Status:</span></td></tr><tr><td width="5">1</td><td><p>1) User Open Twitter Website Url: https://twitter.com/?lang=en</p>
+
+<p>2) User Then Click On Login Button.</p>
+
+<p>3) User Will Enter Their Registered Name</p>
+
+<p>4) User Will Enter the Registered Password.</p>
+
+<p>5) User Will Click on Sign In Button</p>
+
+<p>6) The System Will Display Home Page</p>
+
+<p>7) User Then Will See Picture Or Text At The Homepage&nbsp;.</p>
+
+<p>8) User Then Will See Bookmark Button At The Picture Or Homepage And Will Click On Bookmark Button.</p>
+
+<p>9) User Then Will Click On More Button At The Homepage.</p>
+
+<p>10) User Then Will Click Bookmark Button At The More Page.</p>
+
+<p>11) User Then Will Be Able To See Their Bookmarked Image Or Text Earlier At The Bookmark Page.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td><td><table border="1" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<p>1) Verify&nbsp;User Is Able to Login To Twitter Website Url:</p>
+
+			<p><a href="https://twitter.com/?lang=en">https://twitter.com/?lang=en</a></p>
+
+			<p>(step 1)</p>
+
+			<p>2) Verify&nbsp;User Is Able to Click on Sign in Button.</p>
+
+			<p>(step 2)</p>
+
+			<p>3) Verify&nbsp;User Is Able To Enter Registered Email And Correct Password At Login Page.</p>
+
+			<p>(step 3)</p>
+
+			<p>4) Verify&nbsp;User Is Able to Click Sign in Button.</p>
+
+			<p>(step 4)</p>
+
+			<p>5) Verify User Is Able to Go To The Homepage After Successfully Login.</p>
+
+			<p>(step 5)</p>
+
+			<p>6) Verify&nbsp;User Is Able To See Image Or Text At The Homepage.</p>
+
+			<p>(step 6)</p>
+
+			<p>7) Verify&nbsp;User Is Able To See Bookmark Button At The Bottom Of The Picture Or Image.&nbsp;</p>
+
+			<p>(step 7)</p>
+
+			<p>8) Verify User Is Able To Click On Bookmark Button At The Picture Or Text.</p>
+
+			<p>(step 8)</p>
+
+			<p>9) Verify&nbsp;User Is Able To Click On More Button At The Homepage.</p>
+
+			<p>(step 9)</p>
+
+			<p>10) Verify User Is Able To See Bookmark Button At The More&nbsp;Page.</p>
+
+			<p>(step 10)</p>
+
+			<p>11) Verify User Is Able To Click On Bookmark Button At More Page.</p>
+
+			<p>(step 11)</p>
+
+			<p>12) Verify User Is Able To Go To The Bookmark Page.</p>
+
+			<p>(step 12)</p>
+
+			<p>13) Verify User Is Able The Bookmarked Picture Or Image That They Bookmark Earlier At The Bookmark Page</p>
+
+			<p>(step 13)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td>Passed</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="4">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="4"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priority:</span></td><td colspan="4">Medium</td></tr>
+<tr><td colspan="5"></td></tr><tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Execution Details</td><td colspan="4">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Build</td><td colspan="4">Twitter Build For Intergration Test Plan</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="4" >eggmoll</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Execution Result:</span></td><td  colspan="4" ><b>Passed</b></td></tr>
+<tr><td width="20%"><span class="label">Execution Mode:</span></td><td  colspan="4" ><b>Manual</b></td></tr>
+<tr><td width="20%"><span class="label">Execution duration (min):</span></td><td  colspan="4" ><b>&nbsp;</b></td></tr>
+</table>
+</div>
+
+</body>
+</html>
